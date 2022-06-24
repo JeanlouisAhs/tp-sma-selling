@@ -14,15 +14,14 @@ public class AcheteurContainer {
         profilImp.setParameter(ProfileImpl.MAIN_HOST, "localhost");
         profilImp.setParameter(ProfileImpl.CONTAINER_NAME, "Acheteurs");
         AgentContainer agentContainer = runtime.createAgentContainer(profilImp);
-
         try {
             AgentController agentController = agentContainer.createNewAgent("Acheteur", AcheteurAgent.class.getName(),new Object[]{"XML"});
-            AgentController agentController1 = agentContainer.createNewAgent("Acheteur1", AcheteurAgent.class.getName(),new Object[]{"XML"});
-            AgentController agentController2 = agentContainer.createNewAgent("Acheteur2", AcheteurAgent.class.getName(),new Object[]{"XML"});
+//            AgentController agentController1 = agentContainer.createNewAgent("Acheteur1", AcheteurAgent.class.getName(),new Object[]{"XML"});
+//            AgentController agentController2 = agentContainer.createNewAgent("Acheteur2", AcheteurAgent.class.getName(),new Object[]{"XML"});
 
             agentController.start();
-            agentController1.start();
-            agentController2.start();
+//            agentController1.start();
+//            agentController2.start();
         } catch (ControllerException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

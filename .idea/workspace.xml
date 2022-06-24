@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="427f1f6f-1cb4-4b45-ba23-144323f456af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/agents/AcheteurAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/AcheteurContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/ConsommateurContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/MainContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/VendeurContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ifri/SMA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/SellingGui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp-sma-selling/agents/AcheteurAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp-sma-selling/agents/AcheteurAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp-sma-selling/containers/AcheteurContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp-sma-selling/containers/AcheteurContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agents/AcheteurAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/agents/AcheteurAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AcheteurContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AcheteurContainer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JADE/jar/jade.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -97,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655944919659</updated>
       <workItem from="1655944924796" duration="56000" />
-      <workItem from="1655945082658" duration="6390000" />
+      <workItem from="1655945082658" duration="23515000" />
     </task>
     <servers />
   </component>

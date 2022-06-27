@@ -9,23 +9,23 @@ import jade.wrapper.AgentController;
 
 public class AcheteurAgent extends GuiAgent {
 
-    private SellingGui gui;
+//    private SellingGui gui;
 
     @Override
     protected void setup() {
-        gui = new SellingGui();
-        gui.setAcheteurAgent(this);
+//        gui = new SellingGui();
+//        gui.setAcheteurAgent(this);
         System.out.println("Démarrage de l'Agent acheteur ");
     }
 
     @Override
     public void onGuiEvent(GuiEvent guiEvent) {
-        switch (guiEvent.getType()){
-            case 1:
-
-                break;
-            default:
-                break;
-        }
+//        switch (guiEvent.getType()){
+//            case 1:
+//
+//                break;
+//            default:
+//                break;
+//        }
     }
 }

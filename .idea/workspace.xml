@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="427f1f6f-1cb4-4b45-ba23-144323f456af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/SellingGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp-sma-selling/agents/AcheteurAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp-sma-selling/agents/AcheteurAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp-sma-selling/containers/AcheteurContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp-sma-selling/containers/AcheteurContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/agents/AcheteurAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/agents/AcheteurAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AcheteurContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AcheteurContainer.java" afterDir="false" />
-    </list>
+    <list default="true" id="427f1f6f-1cb4-4b45-ba23-144323f456af" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +91,9 @@
       <option name="presentableId" value="Default" />
       <updated>1655944919659</updated>
       <workItem from="1655944924796" duration="56000" />
-      <workItem from="1655945082658" duration="23515000" />
+      <workItem from="1655945082658" duration="24576000" />
+      <workItem from="1656324941903" duration="4129000" />
+      <workItem from="1656332160174" duration="5485000" />
     </task>
     <servers />
   </component>
@@ -116,5 +110,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

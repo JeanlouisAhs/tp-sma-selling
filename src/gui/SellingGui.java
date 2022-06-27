@@ -1,6 +1,8 @@
 package gui;
 
 import agents.AcheteurAgent;
+import containers.AcheteurContainer;
+import containers.VendeurContainer;
 import jade.gui.GuiEvent;
 
 import javax.swing.*;
@@ -42,23 +44,50 @@ public class SellingGui extends JFrame {
         this.setSize(600,400);
         this.setVisible(true);
 
+
+        // Action after submit Acheteur name
         jButtonAcheteur.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 String agentAcheteurName = jTextFieldAcheteur.getText();
-                GuiEvent guiEvent = new GuiEvent(this,1);
-                Map<String,Object> params = new HashMap<>();
-//                params.put("agentAcheteur",agentAcheteurName);
-//                guiEvent.addParameter(params);
-                guiEvent.addParameter(agentAcheteurName);
-                acheteurAgent.onGuiEvent(guiEvent);
+//                GuiEvent guiEvent = new GuiEvent(this,1);
+//                Map<String,Object> params = new HashMap<>();
+//                guiEvent.addParameter(agentAcheteurName);
+//                acheteurAgent.onGuiEvent(guiEvent);
+
+                if(agentAcheteurName.isEmpty()){
+                    JOptionPane.showMessageDialog(null,
+                            "Le champs est vide",
+                            "Erreur",
+                            JOptionPane.ERROR_MESSAGE);
+                }else{
+                    AcheteurContainer acheteurContainer = new AcheteurContainer(agentAcheteurName);
+                    jTextFieldAcheteur.setText("");
+                    JOptionPane.showMessageDialog(null,
+                            "L'acheteur"+ agentAcheteurName + " a été bien crée");
+                }
+
             }
         });
 
         jButtonVendeur.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String agentName = jTextFieldVendeur.getText();
+                String agentVendeurName = jTextFieldVendeur.getText();
+
+                if(agentVendeurName.isEmpty()){
+                    JOptionPane.showMessageDialog(null,
+                            "Le champs est vide",
+                            "Erreur",
+                            JOptionPane.ERROR_MESSAGE);
+                }else{
+                    VendeurContainer vendeurContainer = new VendeurContainer(agentVendeurName);
+                    jTextFieldAcheteur.setText("");
+                    JOptionPane.showMessageDialog(null,
+                            "Le vendeur"+ agentVendeurName + " a été bien crée");
+                }
+
             }
         });
 
